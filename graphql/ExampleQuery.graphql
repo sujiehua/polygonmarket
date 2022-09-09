@@ -1,0 +1,15 @@
+query ExampleQuery {
+  users(first: 5) {
+    id
+    tokens {
+      id
+      ownerId
+      tokenId
+      image
+      metadata
+      image
+      kind
+      seed
+    }
+  }
+}

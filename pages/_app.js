@@ -8,9 +8,14 @@ function MyApp({ Component, pageProps }) {
       <nav className="border-b p-6">
         <p className="text-4xl font-bold">Metaverse Marketplace</p>
         <div className="flex mt-4">
+          <Link href="/home">
+            <a className="mr-4 text-pink-500">
+              Home graphql
+            </a>
+          </Link>
           <Link href="/">
             <a className="mr-4 text-pink-500">
-              Home
+              Index
             </a>
           </Link>
           <Link href="/create-nft">

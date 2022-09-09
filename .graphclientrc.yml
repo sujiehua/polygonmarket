@@ -1,0 +1,7 @@
+sources:
+  - name: zoranfts-subgraph
+    handler:
+      graphql:
+        endpoint: https://api.thegraph.com/subgraphs/name/sujiehua/zoranfts-subgraph
+documents:
+  - ./graphql/ExampleQuery.graphql
