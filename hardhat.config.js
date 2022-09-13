@@ -30,14 +30,14 @@ module.exports = {
 
     polygon: {
       url: "https://polygon-mainnet.infura.io/v3/55f8ea63e7b74567a0e1c90cd6a8258c",
-      accounts: ['6bf993df4e29426fd6863db11194acf6a1e4b08a2ba49c4d52449ca124c78572'],
+      accounts: [privateKey],
     },
 
     mainnet: {
      // Infura
      url: `https://mainnet.infura.io/v3/55f8ea63e7b74567a0e1c90cd6a8258c`,
      // url: "https://polygon-rpc.com",
-     accounts: ['0x6bf993df4e29426fd6863db11194acf6a1e4b08a2ba49c4d52449ca124c78572']
+     accounts: [privateKey]
      //  httpHeaders: {
      //    "jsonrpc":"2.0",
      //    "method":"eth_blockNumber",
